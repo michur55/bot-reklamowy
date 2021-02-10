@@ -1,5 +1,5 @@
 {
-  "name": "marky",
+  "name": "hoxger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "michur55",
   "license": "ISC",
   "dependencies": {
     "better-sqlite3": "^7.1.1",

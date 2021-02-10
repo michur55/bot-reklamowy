@@ -12,12 +12,12 @@ module.exports = {
 			if(!ad) {
 
 				info = {
-					status: "<a:nie:784357919512068136> **NIE** zweryfikowana"
+					status: "<a:nie:808374389485076540> **NIE** zweryfikowana"
 				}
 				if(await toVerifygetById(message.guild.id)) info.status = "<a:timer:784695841931788298> W trakcie **WERFYIKACJI**"
 			} else {
 				info = {
-				status: "<a:tak:784529017516326913> **ZWERYFIKOWANA**",
+				status: "<a:tak:808376663691231293> **ZWERYFIKOWANA**",
 				}
 				embed.addField("<a:anonimowy_link:785896715165106256> __**NUMER**__ w kolejce:", ad.number || "\`Brak Informacji\`")
 					.addField("<a:dev:785066213515460608> Została __**WYSŁANA**__", ad.sends > 1 ? `\`${`${ad.sends}\`` || "\`0\`"} razy` : `${ad.sends || "\`0\`"} raz` || "Brak Informacji")
